@@ -1,18 +1,19 @@
-# Python_XYZ_Tile_Watermarker
+# Python XYZ Tile Watermarker
 
-Name: XYZ_Tile_Watermarker
-Author: burakustuner
-Date: 23.11.2023
-Description: 
-    This script adds a watermark to image tiles in specified layers.
-    It processes every 'frequency'-th file in the given directory and
-    applies the specified watermark text with certain stylistic 
-    attributes like font size, color, and margins.
+## Overview
+**Python XYZ Tile Watermarker** is a Python script designed to add watermarks to image tiles across specified layers. It allows for selective processing of every 'frequency'-th file in a given directory, enabling the application of a specified watermark text with customizable stylistic attributes.
 
-Usage:
-    ! pip install Pillow
-    ! Check if python added to path like "C:\Users\burak.ustuner\AppData\Roaming\Python\Python312\Scripts"
-    
-    Modify the parameters in the add_watermark function call as per your requirements.
-    The function can be called with different directories, watermark texts, 
-    layer levels, fonts, sizes, colors, and frequencies.
+## Author
+burakustuner
+
+## Date
+23.11.2023
+
+## Description
+The script is useful for overlaying text on images in a directory, especially for tile-based mapping or image processing tasks. It supports various customizations including font size, color, and margins, ensuring that the watermark fits seamlessly within the image context.
+
+## Prerequisites
+To use this script, you need to have Python installed on your system along with the Pillow library. If you haven't installed Pillow yet, you can do so using pip:
+
+```bash
+pip install Pillow
